@@ -1,0 +1,51 @@
+/* id= #container 
+- Directory aka whole document
+class= customer-block
+- For customer divs
+Class = picture
+- For the images
+Class - customerName
+- For the names
+Class = customerEmail
+- Emails
+Class = addressElement 
+- Address both lines
+class= DOBelement
+- Dob
+Class= CustomerSince
+- Customer since */
+
+#container {
+    margin: auto;
+    border: 1px solid black;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly
+}
+
+.customer-block {
+    margin: auto;
+    border: 1px solid black;
+    width: 25vw;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.picture {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
+.addressElement {
+    border: 1px solid black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: start
+}
